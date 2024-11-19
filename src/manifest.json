@@ -32,5 +32,11 @@
 			"matches": ["https://filmeshentai.com/*"],
 			"js": ["filmeshentai.js"]
 		}
-	]
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{7ee4bdd6-60cf-4216-883f-8006064c8d57}",
+			"strict_min_version": "58.0"
+		}
+	}
 }

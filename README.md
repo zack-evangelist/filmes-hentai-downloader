@@ -20,5 +20,6 @@
     ```
 - Go to [debugging page firefox](about:debugging#/runtime/this-firefox) on your Firefox
 - Upload the zip on "temporary upload extension"
+    ![instalation of extension](assets/install.jpg)
 - Go to https://filmeshentai.com and select a video to view
 
