@@ -1,0 +1,36 @@
+{
+	"manifest_version": 3,
+	"name": "Filmes Hentai Downloader",
+	"version": "1.0",
+	"description": "Permite livre acesso para acessar os links dos vídeos privados do site filmeshentai.",
+	"icons": {
+		"16": "icons/filmes_hentai_16x16.png",
+		"48": "icons/filmes_hentai_48x48.png",
+		"128": "icons/filmes_hentai_128x128.png"
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "icons/filmes_hentai_16x16.png",
+			"48": "icons/filmes_hentai_48x48.png",
+			"128": "icons/filmes_hentai_128x128.png"
+		}
+	},
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage",
+		"webRequest",
+	    "webRequestBlocking"
+	],
+	"host_permissions": [
+		"https://filmeshentai.com/*",
+		"https://hentaitokyo.net/*"
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://filmeshentai.com/*"],
+			"js": ["filmeshentai.js"]
+		}
+	]
+}
