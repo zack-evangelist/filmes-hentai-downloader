@@ -1,2 +1,4 @@
 node_modules
 *.zip
+*.xpi
+!filmes_hentai_downloader.xpi

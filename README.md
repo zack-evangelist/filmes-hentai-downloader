@@ -12,6 +12,11 @@
 !!! Actually only works on Firefox
 
 # Execute
+
+### You can just install directly the extension on [this github page](https://zack-evangelist.github.io/filmes-hentai-downloader/)
+
+### Or create the extension file from scratch
+
 - Create a zip file with all src/ folder
 
     if using Linux, simply execute on the terminal:
